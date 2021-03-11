@@ -26,6 +26,9 @@ Use the starter code and commit each step of the exercise.
 
 
 # Requirements
+
+[Here is a Codepen on how to capture user input from a form](https://codepen.io/marcwright/pen/MWbZRvo?editors=1011)
+
 ### 1. Get color setting working
 
 * When I click the "Set Color" button, it should change the color of the "brush" box to the color I specify in the input field.
