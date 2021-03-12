@@ -5,19 +5,19 @@ const brush = document.querySelector('.brush')
 const body = document.body
 
 // ES6 WITH E.TARGET
-// const changeGreen = (e) => {
-//     e.target.style.background = 'green'
+// const changeColor = (e) => {
+//     e.target.style.background = colorChoice
 // }
 
 // ES5 USING THIS
-function changeGreen() {
-    this.style.background = 'green'
+function changeColor() {
+    this.style.background = colorChoice
 }
 
 const generateSquares = () => {
     for(let i = 0; i < 20; i++) {
         let newSquare = document.createElement('div')
-        newSquare.addEventListener('click', changeGreen)
+        newSquare.addEventListener('click', changeColor)
         newSquare.classList.add('square')
         newSquare.style.background = colorChoice
         body.appendChild(newSquare)
