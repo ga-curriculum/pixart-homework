@@ -11,15 +11,15 @@ const body = document.body
 
 // ES5 USING THIS
 function changeColor() {
+    console.log("mouseover")
     this.style.background = colorChoice
 }
 
 const generateSquares = () => {
-    for(let i = 0; i < 20; i++) {
+    for(let i = 0; i < 8000; i++) {
         let newSquare = document.createElement('div')
-        newSquare.addEventListener('click', changeColor)
+        newSquare.addEventListener('mouseover', changeColor)
         newSquare.classList.add('square')
-        newSquare.style.background = colorChoice
         body.appendChild(newSquare)
     }
 }
@@ -28,8 +28,9 @@ form.addEventListener('submit', (event) => {
     event.preventDefault()
     colorChoice = colorField.value
     brush.style.background = colorChoice
-    generateSquares()
 })
+
+generateSquares()
 
 
 
