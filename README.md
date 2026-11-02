@@ -113,7 +113,7 @@ They have an amazing article on JavaScript that goes over the topics we cover in
 
 ## Plagiarism
 
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+Take a moment to refamiliarize yourself with the [Plagiarism policy](https://github.com/ga-curriculum/getting-started/blob/main/plagiarism.md). Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
